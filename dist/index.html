@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="container">
+    <form class="form-data" autocomplete="on">
+      <div class="enter-country">
+        Enter a country name to get more information:
+      </div>
+      <div>
+        <input type="text" class="country-name" />
+      </div>
+      <button class="search-btn">Search</button>
+    </form>
+    <div class="result">
+      <div class="loading">loading...</div>
+      <div class="errors"></div>
+      <div class="data"></div>
+      <div class="result-container">
+        <p><strong>Total cases: </strong><span class="cases"></span></p>
+        <p>
+          <strong>Total recovered: </strong> <span class="recovered"></span>
+        </p>
+        <p><strong>Total deaths: </strong><span class="deaths"></span></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
