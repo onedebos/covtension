@@ -40,7 +40,7 @@ To install in Chrome
 
 ### Automated Tests
 
-- Currently, there are no automated tests avaailable for this project. This will be implemented at a later date.
+- Currently, there are no automated tests available for this project. This will be implemented at a later date.
 
 ## Authors
 
