@@ -15,8 +15,8 @@
   "author": "Adebola Adeniran",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "axios": "^0.19.2"
